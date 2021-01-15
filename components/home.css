@@ -1,0 +1,115 @@
+*{
+ box-sizing: border-box;
+   
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.Home{
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://occ-0-58-64.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABc4lAY__cKWysr6lGNdKhKbtEuvzcs4lRilz9ZieNkBL7q7vHEoTzZDV7oZSn4nnNZsL97xqxdcvCdKW_CXBToWhEyvB.webp?r=aa1);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    resize: both;
+    position: relative;
+    min-width: 150px;
+    min-height: 60px;
+}
+.homeDiv{
+    margin-top: 115px;
+    margin-left: 71px;
+}
+.homeDiv button{
+    width: 9%;
+    height: 6vh;
+    resize: both;
+    position: relative;
+    min-width: 150px;
+    min-height: 60px;
+}
+.homeDiv button{
+    width: 12%;
+    height: 6vh;
+    opacity: 0.8;
+    margin-right: 10px;
+    background-color: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    resize: both;
+    position: relative;
+    min-width: 150px;
+    min-height: 60px;
+}
+.homeDiv p{
+    color: thistle;
+    width: 40%;
+    font-size: 21px;
+    font-family: monospace;
+    resize: both;
+    position: relative;
+    min-width: 150px;
+    min-height: 60px;
+}
+
+
+
+
+/*    section two  */
+
+
+
+.images-flex{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 25px 10px;
+    width: 95%;
+    margin: auto;
+}
+
+.images-flex div {
+    /* border: 1px solid blue; */
+    min-height: 430px;
+    transition: 2s transform;
+}
+
+
+.images-flex div img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.images-flex div:hover{
+    transform: scale(1.1,1.3);
+}
+
+.box-grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 30px 10px;
+}
+
+.box-grid div{ 
+    border-radius: 8px;
+    transition: 1s transform;
+}
+.box-grid div img{
+    width: 100%;
+    height: 100%;
+}
+
+.box-grid div:hover{
+    transform: scale(1.1,1.3);
+}
+
+.movies-list h2{
+    color: white;
+    font-size: 2.4rem;
+     text-transform: capitalize;
+}

@@ -1,0 +1,27 @@
+.Tvshows{
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://occ-0-58-64.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABZ182epxvsQfhZuvfQzoiBI5Vbq-disDXbARuLFBxxq1_XpPh9iuEnsZVrzYBYdjL-Z6y2ctD45hg0hbecX5ralC3-Hd.webp?r=84c);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    resize: both;
+    position: relative;
+    min-width: 150px;
+    min-height: 60px;
+}
+
+.Movies{
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://occ-0-58-64.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXd3kq6GlWnPpaP8jYQNp0SasaKWZ-y40KvQz4v9gBqgnA3xyXwLo5gUwQ35_ZT1vQUTIVSo_gjpxASXDjJRQ3Z2qJ9u.webp?r=e22);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    resize: both;
+    position: relative;
+    min-width: 150px;
+    min-height: 60px;
+}
